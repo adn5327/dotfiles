@@ -3,3 +3,15 @@
 	email = adn5327@gmail.com
 [diff]
 	tool = vimdiff
+[merge]
+    tool = vimdiff
+[alias]
+    lol = log --graph --decorate --pretty=oneline --abrev-commit
+    lola = log --graph --decorate --pretty=oneline --abrev-commit --all
+[color]
+    branch = auto
+    diff = auto
+    interactive = auto
+    status = auto
+[mergetool]
+    keepBackup = false
