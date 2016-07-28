@@ -15,6 +15,11 @@ inoremap jk <Esc>
 "remap // to search for visually selected text
 vnoremap // "zy/<C-R>"<CR>
 
+"enable search highlighting
+set hlsearch
+"remap f to remove search highlighting
+nnoremap f :noh<CR>
+
 "remap keys for tab navigation
 nnoremap <C-n> :tabnew<CR>
 nnoremap tn :tabnext<CR>
