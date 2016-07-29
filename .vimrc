@@ -15,7 +15,11 @@ inoremap jk <Esc>
 "remap // to search for visually selected text
 vnoremap // "zy/<C-R>"<CR>
 
+"easy source vimrc
+nnoremap sorc :so $MYVIMRC<CR>
+
 "enable search highlighting
+let @/ = ""
 set hlsearch
 "remap f to remove search highlighting
 nnoremap f :noh<CR>
