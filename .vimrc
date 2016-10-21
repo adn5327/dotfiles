@@ -1,6 +1,7 @@
 set number
 set numberwidth=3
 syntax on
+filetype plugin indent on
 
 "tab widths set to4, spaces as tabs
 set tabstop=4

@@ -91,3 +91,4 @@ DEFAULT_USER=adn5327
 export EDITOR=vim
 export PW411="tajadmin"
 export DATABASE_URL="mysql://tajexcha_admin:tajadmin@web.engr.illinois.edu:3306/tajexcha_exchange"
+export PATH=$PATH:/Library/TeX/texbin
